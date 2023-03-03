@@ -1,5 +1,5 @@
 Description:
-This is a simple GUI program written in Python using the Tkinter library for creating a to-do list. The program allows the user to add tasks to a list, remove tasks, and save the list to a JSON file. The GUI is made up of a text entry box, a "Add Task" button, a "Remove Task" button, and a Listbox widget for displaying the current tasks.
+This is a simple GUI program written in Python using the CTK & Tkinter library for creating a to-do list. The program allows the user to add tasks to a list, remove tasks, and save the list to a JSON file. The GUI is made up of a text entry box, a "Add Task" button, a "Remove Task" button, and a Listbox widget for displaying the current tasks.
 
 The program demonstrates basic concepts of Python and Tkinter, such as reading and writing to files, handling user inputs, and updating the GUI dynamically. It can be used as a starting point for building more complex to-do list applications or as a learning resource for beginners to Python GUI programming.
 
@@ -10,6 +10,7 @@ Remove tasks from the list
 Save the task list to a JSON file
 Load the task list from a JSON file
 Simple and intuitive GUI interface
+
 Usage:
 
 Clone or download the repository to your local machine.
