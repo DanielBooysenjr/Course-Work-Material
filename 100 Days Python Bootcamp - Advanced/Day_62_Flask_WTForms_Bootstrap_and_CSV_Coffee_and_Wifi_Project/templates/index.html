@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Coffee and Wifi{% endblock %}
+
+{% block content %}
+<body class="bg-dark">
+<div class="p-5 text-center">
+  <h1 class="display-4">☕️ Coffee & Wifi 💻</h1>
+  <p class="lead">Want to work in a cafe but need power and wifi?</p>
+  <hr class="my-4">
+  <p class="found">You've found the right place! Check out my collection of cafes with data on power socket availability, wifi speed, and coffee quality.</p>
+  <a type="buton" class="btn btn-warning btn-lg show-me" href="{{url_for('cafes')}}" role="button">Show Me!</a>
+</div>
+</body>
+
+{% endblock %}

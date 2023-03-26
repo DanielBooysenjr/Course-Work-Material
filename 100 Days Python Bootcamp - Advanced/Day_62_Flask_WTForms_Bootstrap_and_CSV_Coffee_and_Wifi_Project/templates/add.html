@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% import "bootstrap/form.html" as wtf %}
+
+{% block title %}Add A New Cafe{% endblock %}
+
+{% block content %}
+<body class="bg-dark">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-8">
+
+      <h1>Add a new cafe into the database</h1>
+      <div class="add-form">
+      {{ wtf.render_form(form) }}
+    </div>
+	  <p type="button" class="space-above btn btn-warning"><a href="{{url_for('cafes')}}">See all cafes</a></p>
+
+    </div>
+  </div>
+</div>
+</body>
+
+{% endblock %}

@@ -1,0 +1,26 @@
+/* This CSS file will need to be added to the styling of 
+your web pages for the styles to be rendered. */
+
+body {
+background-color: #333;
+color: white;
+}
+
+h1, .lead, .found {
+  text-align: center;
+  height: 10vh;
+  color: white;
+}
+
+
+.show-me {
+    color: #ffc107;
+}
+
+.add-form {
+  color: white;
+}
+.space-above {
+    margin-top: 20px;
+    padding-top: 20px;
+}
